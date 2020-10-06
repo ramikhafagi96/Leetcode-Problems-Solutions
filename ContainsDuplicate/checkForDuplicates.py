@@ -1,7 +1,7 @@
 # time: o(n)
 # space: o(n)
 
-def containsDuplicate(self, nums: List[int]) -> bool:
+def containsDuplicate(nums: List[int]) -> bool:
     characterFrequency = {}
     for num in nums:
         if num not in characterFrequency:
