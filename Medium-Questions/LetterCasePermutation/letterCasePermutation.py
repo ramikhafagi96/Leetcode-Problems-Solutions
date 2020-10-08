@@ -4,6 +4,7 @@
         # For each iteration the length of the queue grows exponentially wrt. the length of the string
         # if the input has 3 alphabet characters then the output list length is 2^3=8
 # space o(n)
+from collections import deque
 def letterCasePermutation(S: str) -> List[str]:
     if len(S) == 0:
         return []
