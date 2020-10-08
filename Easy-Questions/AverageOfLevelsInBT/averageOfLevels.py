@@ -1,5 +1,5 @@
 # time o(n)
-# space o(height)
+# space o(n)
 
 from collections import deque
 
